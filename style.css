@@ -1,27 +1,39 @@
+body{
+    background-color: white;
+}
+
+
 .bl{
+    
     width: 600px;
-    background-color: deepskyblue;
+    background-color: #F2F9FC;
     border-radius: 5px;
+    
+}
+.bl2{
+    margin-top: 1px;
+    width: 300px;
     
 }
 .title{
     font-size: 20px;
     font-family: Arial;
     width: 240px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #39AECF;
     padding: 10px;
+    color: #39AECF
     
 }
 .avatar{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    border: 2px solid black;
+    border: 2px solid #39AECF;
     background-image:url(img/homer.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 10px;
+    margin-top: 20px;
    
             
 }
@@ -50,5 +62,116 @@
 }
 .param{
     margin-right: 20px;
+    
 }
+     
+
+.top{
+    width:200px;
+    margin-top: 0px;
+}
+.bl3{
+    list-style: none;
+    padding: 0;
+}
+.nu1{
+    width: 200px;
+    height: 20px;
+    background-color: #39AECF;
+    text-align: justify;
+    padding:10px;
+    color: aliceblue;
+    
+}
+.nu2{
+    width: 200px;
+    height: 20px;
+    background-color: #F2F9FC;
+    text-align: justify;
+    padding:10px;
+    color: #6B7071;
+    border-bottom: 2px #39AECF solid;
+    
+    
+}
+.nu3{
+    width: 200px;
+    height: 20px;
+    background-color: #F2F9FC;
+    text-align: justify;
+    padding:10px;
+    color: #6B7071;
+}
+.value{
+    width: 196px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.down{
+    width: 400px;
+    margin-top: 90px;
+    
+}
+.du1,.du2,.du3{
+    width: 209px;
+    height: 20px;
+    padding-left: 9px;
+    color: white;
+    list-style: none;
+    display: flex;
+    
+
+
+}
+.icon_1,.icon_2,.icon_3{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    background-image: url(img/skype_PNG28.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 4px;
+}
+.icon_1{
+    background-image: url(img/mail.ru-mail.png);
+}
+.icon_2{
+    background-image: url(img/mobile-phones-telephone-call-computer-icons-handphone.jpg);
+}
+.icon_3{
+    background-image: url(img/skype_PNG28.png);
+}
+.tit{
+    width: 209px;
+    height: 24px;
+    background-color: #39AECF;
+    padding-left: 9px;
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    margin-top: 30px;
+    
+    
+    
+}
+.bl3{
+    margin: 0;
+}
+.du1{
+    background-color: #38C5E0;
+}
+.du2{
+    background-color: #3BCEEA;
+}
+
+.du3{
+    background-color:#3EC9E3; 
+}
+.container{
+    display: flex;
+}
+
+
 
